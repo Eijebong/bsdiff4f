@@ -3,12 +3,12 @@ from __future__ import absolute_import
 from os.path import getsize
 from optparse import OptionParser
 
-from bsdiff4.format import file_diff, file_patch, read_patch
+from bsdiff4f.format import file_diff, file_patch, read_patch
 
 
 def display_version():
-    from bsdiff4 import __version__
-    print("bsdiff4 %s" % __version__)
+    from bsdiff4f import __version__
+    print("bsdiff4f %s" % __version__)
 
 
 def human_bytes(n):

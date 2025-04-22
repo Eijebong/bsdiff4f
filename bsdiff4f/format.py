@@ -12,7 +12,7 @@ else:
 MAGIC = b'BSDIFF40'
 
 
-import bsdiff4.core as core
+import bsdiff4f.core as core
 
 
 def write_patch(fo, len_dst, tcontrol, bdiff, bextra):

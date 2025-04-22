@@ -7,9 +7,9 @@ import shutil
 import unittest
 import tempfile
 
-import bsdiff4.core as core
-import bsdiff4.format as format
-from bsdiff4 import diff, patch, file_diff, file_patch, file_patch_inplace
+import bsdiff4f.core as core
+import bsdiff4f.format as format
+from bsdiff4f import diff, patch, file_diff, file_patch, file_patch_inplace
 
 
 N = 2 ** 63 - 1
