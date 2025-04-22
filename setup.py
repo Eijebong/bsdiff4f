@@ -44,7 +44,7 @@ setup(
     description = "binary diff and patch using the BSDIFF4-format",
     packages = ["bsdiff4"],
     ext_modules = [Extension(name = "bsdiff4.core",
-                             sources = ["bsdiff4/core.c"])],
+                             sources = ["bsdiff4/core.c", "bsdiff4/sais.c"])],
     entry_points = {
         'console_scripts': [
             'bsdiff4 = bsdiff4.cli:main_bsdiff4',
